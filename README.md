@@ -19,7 +19,14 @@ Within the linux-sgx-driver project, two versions of the out-of-tree driver are 
 
 IMPORTANT:
 ---------
-Starting from 5/10/2019, the master branch (which supports only SGX 1.5-based features) is deprecated and is not supported anymore. Please use the sgx2 branch; it is a super set of the master branch.
+Starting 11/01/2019, sgx2 is merged now into master and will be deprecated. All development and updates will be merged to master branch going forward. Please use master branch only.
+
+The master branch will support both sgx2.0 and sgx1.5 features.
+
+Note also this OOT driver no longer tracks the proposed upstream version for in-kernel
+SGX support. The [DCAP
+driver](https://github.com/intel/SGXDataCenterAttestationPrimitives/tree/master/driver)
+will track more closely with proposed upstream in-kernel support.
 
 License
 -------
